@@ -1,0 +1,5 @@
+n = input("Escreva algo meu querido(A)")
+print(type(n))
+print(n.isalpha())
+print(n.isnumeric())
+print(n.isalnum())

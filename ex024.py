@@ -1,0 +1,5 @@
+frase = str(input('Escreva seu nome completo  ')).strip()
+nome = frase.split()
+print('è uma honra te conhecer')
+print(f"Seu primeiro nome é {nome[0]}")
+print(f'Seu ultimo nome é  {nome[len(nome)-1]}')
